@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="css\style.css" />
   <link rel="stylesheet" href="css\normalize.css" />
   <link rel="stylesheet" href="css\font-awesome.min.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo" >
+  
 </head>
 <body>
 

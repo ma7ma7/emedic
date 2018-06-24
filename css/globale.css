@@ -1,6 +1,15 @@
 /*
   Blue background color : #7ed6df
 */
+@font-face {
+  font-family: 'cairoregular';
+  src: url('font/cairo-regular-webfont.woff2') format('woff2'),
+       url('font/cairo-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 *{
   box-sizing: border-box;
   font-family: 'Cairo', sans-serif;
