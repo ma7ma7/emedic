@@ -1,0 +1,18 @@
+/*
+  Blue background color : #7ed6df
+*/
+*{
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+
+body{
+  background-color: #7ed6df
+}
+
+/* set a container for all pages */
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
