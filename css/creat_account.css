@@ -40,7 +40,6 @@
 /* Form de patient */
 .patient{
     display: none;
-    width: 38%;
     height: 450px;
     background-color:rgba(2,2,2 , 0.5);
     margin-top: 30px;
@@ -49,11 +48,32 @@
     box-shadow: 2px 2px 5px #000;
     padding: 20px;
     color: #fff;
-    font-weight: bold
+    font-weight: bold;
+    width: 45%;
+    overflow: hidden
 }
 
 .patient form label span {
     color: #f00
+}
+
+.patient form input:not([type="checkbox"]){
+ width: 240px;
+ float: right;
+ display: inline-block;
+ margin-right: 10px;
+}
+
+.patient form select{
+    width: 240px;
+    float: right;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.patient label {
+    margin-bottom: 10px;
+    display: inline-block
 }
 
 .patient form input:not([type="checkbox"]){
@@ -63,8 +83,7 @@
 }
 
 .patient form select{
-    width: 248px;
-    margin-left: 169px;
+    width: 248px;   
 }
 
 .patient form select,
@@ -73,101 +92,39 @@
 }
 
 .patient form input[name="password"]{
-    margin-left: 112px;
     padding: 5px
 }
 
 .patient form input[name="confirm_password"]{
-    margin-left: 2px;
     padding: 5px
 }
 
 .patient form input[name="email"]{
-    margin-left: 165px;
     padding: 5px
 }
 
 .patient form input[name="birthday"]{
-    margin-left: 79px;
     padding: 5px
 }
 
 .patient form input[name="prenom"]{
-    margin-left: 148px;
     padding: 5px
 }
 
 .patient form input[name="nom"]{
-    margin-left: 169px;
     padding: 5px
 }
 
 .patient form input[type="submit"]{
-    margin-left: 222px;
     padding: 5px;
     color: #000;
     background-color: #fff;
 }
 
+.clearfix {
+    clear: both
+}
 
-@media (min-width: 1200px) and (max-width: 1280px){
-    .patient {
-        width: 45%;
-    } 
- 
-    .patient form input:not([type="checkbox"]){
-     width: 250px;
-     padding-bottom: 5px;
-     margin-bottom: 10px;
-     position: relative;
-     
-    }
-
-    .patient form select{
-        right: -229px;
-        width: 250px;
-        margin-left: 0;
-        position: relative;
-    }
-
-    .patient form input[name="nom"]{
-        right: -230px;
-        margin-left: 0;
-    }
-
-    .patient form input[name="prenom"]{
-        right: -208px;
-        margin-left: 0;
-    }
-
-    .patient form input[name="birthday"]{
-        right: -139px;
-        margin-left: 0;
-    }
-
-    .patient form input[name="email"]{
-        right: -224px;
-        margin-left: 0;
-    }
-
-    .patient form input[name="password"]{
-        right: -171px;
-        margin-left: 0;
-    }
-    
-    .patient form input[name="confirm_password"]{
-        right: -60px;
-        margin-left: 0;
-    }
-
-    .patient form input[type="submit"] {
-        margin-left: 0;
-        right: -224px;
-        right: -35px;
-        top: 83px;
-    }
-
- }
 
 .patient form a {
     color: aquamarine;
@@ -177,17 +134,11 @@
 .patient form .close-form{
     font-size: 20px;
     color: #fff;
-    position: relative;
-    top: -395px;
-    left: 309px;
-    cursor: pointer
-}
-
-@media (min-width: 1200px) and (max-width: 1280px){ 
-    .patient form .close-form{
-        top: -372px;
-        left: 369px;
-    }
+    cursor: pointer;
+    float: right;
+    display: inline-block;
+    margin-right: -14px;
+    margin-top: -385px;
 }
 
 /* doctor form */
