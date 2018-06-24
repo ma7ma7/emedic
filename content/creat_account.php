@@ -53,16 +53,12 @@
 
   <!-- The patient login form -->
   <?php require('patient.php'); ?>
-  
-  <!-- The doctor form -->
-  <div class="doctor">
 
-  </div>
+  <!-- The doctor form -->
+  <?php require('doctor-form.php'); ?>
 
   <!-- The laboratory form -->
-  <div class="laboratoire">
-
-  </div>
+  <?php require('labo-form.php'); ?>
 
   <?php require('terme.php'); ?>
 </div>
