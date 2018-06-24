@@ -1,4 +1,4 @@
-<div class="patient">
+<div class="patient myform">
     <form action="" method="post">
       <label for="nom">Nom <span>*</span> :</label>
       <input type="text" name="nom" id="nom" placeholder="Votre Nom"/></br>
@@ -30,5 +30,7 @@
       <input type="submit" value="Valider"/></br>
 
       <label> <span>*</span> Les champs obligatoires</label>
+
+       <i class="fa fa-times-circle close-form" aria-hidden="true"></i>
     </form>
   </div>

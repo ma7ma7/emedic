@@ -53,5 +53,10 @@ $(document).ready(function(){
         $('.termes').slideUp();
     });
 
+    // hide form on click 
+    $('.close-form').on('click', function(){
+        $('.myform').slideUp(900);
+        $('.login-nav').show(900);
+    });
 
 });
