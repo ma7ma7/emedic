@@ -40,25 +40,8 @@
       </form>
     </div>
   </div>
-  <!-- <i class="fa fa-stethoscope" aria-hidden="true"></i>
-  <i class="fa fa-user-o" aria-hidden="true"></i> -->
 
-  <!-- <div class="selected_one">
-    <div class="top">
-        <i class="fa fa-stethoscope" aria-hidden="true"></i>
-        <h3><a href=''>Professionnel</a></h3>
-        <div class="pro_type">
-            <i class="fa fa-flask" aria-hidden="true"></i>
-            <i class="fa fa-user-md" aria-hidden="true"></i>
-        </div>
-    </div>
-
-    <div class="bottom">
-        <i class="fa fa-user-o" aria-hidden="true"></i>
-        <h3>Patient</h3>
-    </div>
-  </div> -->
-
+  <!-- The dropdown menu -->
   <div class="login-nav">
     <ul>
       <li><i class="fa fa-stethoscope" aria-hidden="true"></i>Professionnel</li>
@@ -68,6 +51,7 @@
     </ul>
   </div>
 
+  <!-- The patient login form -->
   <div class="patient">
     <form action="" method="post">
       <label for="nom">Nom <span>*</span> :</label>
@@ -103,10 +87,12 @@
     </form>
   </div>
 
+  <!-- The doctor form -->
   <div class="doctor">
 
   </div>
 
+  <!-- The laboratory form -->
   <div class="laboratoire">
 
   </div>
