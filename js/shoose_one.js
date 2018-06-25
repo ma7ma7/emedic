@@ -38,8 +38,8 @@ $(document).ready(function(){
             $('.doctor').slideDown(900); 
         }
 
-        if ($(this).attr('data-class') == 'laboratoire') {
-            $('.laboratoire').slideDown(900); 
+        if ($(this).attr('data-class') == 'labo') {
+            $('.labo').slideDown(900); 
         }
 
     });

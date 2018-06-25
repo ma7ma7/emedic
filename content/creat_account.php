@@ -46,7 +46,7 @@
     <ul>
       <li><i class="fa fa-stethoscope" aria-hidden="true"></i>Professionnel</li>
       <li class="shoose_one selected-one" data-class="doctor"><i class="fa fa-user-md" aria-hidden="true"></i>Docteur</li>
-      <li class="shoose_one selected-one" data-class="laboratoire"><i class="fa fa-flask" aria-hidden="true"></i>Laboratoire</li>
+      <li class="shoose_one selected-one" data-class="labo"><i class="fa fa-flask" aria-hidden="true"></i>Laboratoire</li>
       <li class="selected-one" data-class="patient"><i class="fa fa-user-o" aria-hidden="true"></i>Patient</li>
     </ul>
   </div>
@@ -60,6 +60,7 @@
   <!-- The laboratory form -->
   <?php require('labo-form.php'); ?>
 
+  <!-- Add the termes -->
   <?php require('terme.php'); ?>
 </div>
 

@@ -38,7 +38,9 @@
 }
 
 /* Form de patient */
-.patient{
+.patient,
+.doctor,
+.labo{
     display: none;
     height: 450px;
     background-color:rgba(2,2,2 , 0.5);
@@ -53,79 +55,100 @@
     overflow: hidden
 }
 
-.patient form label span {
+.patient form label span,
+.doctor form label span, 
+.labo form label span {
     color: #f00
 }
 
-.patient form input:not([type="checkbox"]){
+.patient form input:not([type="checkbox"]),
+.doctor form input:not([type="checkbox"]),
+.labo form input:not([type="checkbox"]){
  width: 240px;
  float: right;
- display: inline-block;
+ display: block;
  margin-right: 10px;
 }
 
-.patient form select{
+.patient form select,
+.labo form select,
+.doctor form select{
+    display: block;
     width: 240px;
     float: right;
-    display: inline-block;
     margin-right: 10px;
 }
 
 
-.patient label {
+.patient label,
+.labo label,
+.doctor label{
     margin-bottom: 10px;
     display: inline-block
 }
 
-.patient form input:not([type="checkbox"]){
+.patient form input:not([type="checkbox"]),
+.labo form input:not([type="checkbox"]),
+.doctor form input:not([type="checkbox"]){
 
     padding-bottom: 5px;
     margin-bottom: 10px
 }
 
 @media (min-width: 1100px) and (max-width : 1280px){
-    .patient form input:not([type="checkbox"]){
+    .patient form input:not([type="checkbox"]),
+    .labo form input:not([type="checkbox"]),
+    .doctor form input:not([type="checkbox"]){
         width: 220px;
     }
        
-    .patient form select{
+    .patient form select,
+    .labo form select,
+    .doctor form select{
         width: 220px;
      }
 }
 
 .patient form select,
-.patient form input[type="checkbox"]{
+.doctor form select,
+.labo form select,
+.patient form input[type="checkbox"],
+.doctor form input[type="checkbox"],
+.labo form input[type="checkbox"]{
     margin-bottom: 10px
 }
 
-.patient form input[name="password"]{
+.patient form input[name="password"],
+.patient form input[name="confirm_password"],
+.patient form input[name="email"], 
+.patient form input[name="birthday"],
+.patient form input[name="prenom"],
+.patient form input[name="nom"],
+.patient form input[type="submit"]
+{
     padding: 5px
 }
 
-.patient form input[name="confirm_password"]{
+.doctor form input[name="password_doctor"],
+.doctor form input[name="confirm_password_doctor"],
+.doctor form input[name="email_doctor"], 
+.doctor form input[name="birthday_doctor"],
+.doctor form input[name="prenom_doctor"],
+.doctor form input[name="nom_doctor"],
+.patient form input[type="submit_doctor"]
+{
     padding: 5px
 }
 
-.patient form input[name="email"]{
+.labo form input[name="password_labo"],
+.labo form input[name="confirm_password_labo"],
+.labo form input[name="email_labo"], 
+.labo form input[name="birthday_labo"],
+.labo form input[name="prenom_labo"],
+.labo form input[name="nom_labo"],
+.patient form input[type="submit_labo"]
+{
     padding: 5px
-}
-
-.patient form input[name="birthday"]{
-    padding: 5px
-}
-
-.patient form input[name="prenom"]{
-    padding: 5px
-}
-
-.patient form input[name="nom"]{
-    padding: 5px
-}
-
-.patient form input[type="submit"]{
-    padding: 5px;
-    color: #000;
-    background-color: #fff;
 }
 
 .clearfix {
@@ -133,49 +156,23 @@
 }
 
 
-.patient form a {
+.patient form a,
+.labo form a,
+.doctor form a {
     color: aquamarine;
     cursor: pointer
 }
 
-.patient form .close-form{
+.patient form .close-form,
+.doctor form .close-form,
+.labo form .close-form{
     font-size: 20px;
     color: #fff;
     cursor: pointer;
+    display: block;
     float: right;
-    display: inline-block;
     margin-right: -14px;
-    margin-top: -385px;
-}
-
-/* doctor form */
-.doctor{
-    display: none;
-    width: 38%;
-    height: 450px;
-    background-color:rgba(2,2,2 , 0.5);
-    margin-top: 30px;
-    margin-left: 20px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 5px #000;
-    padding: 20px;
-    color: #fff;
-    font-weight: bold
-}
-
-/* laboratoire form */
-.laboratoire{
-    display: none;
-    width: 38%;
-    height: 450px;
-    background-color:rgba(2,2,2 , 0.5);
-    margin-top: 30px;
-    margin-left: 20px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 5px #000;
-    padding: 20px;
-    color: #fff;
-    font-weight: bold
+    margin-top: -368px;
 }
 
 /* Termes */
