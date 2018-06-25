@@ -10,7 +10,7 @@
 <div class="overlay">
   <header>
     <div class="container">
-      <h1><span>E</span>-Medic</h1>
+      <h1><a href="../index.php" class="logo"><span>E</span>-Medic</a></h1>
       <nav>
         <a href="../index.php">Accueil</a>
         <a href="#">à propos</a>

@@ -25,3 +25,8 @@ body{
   width: 1120px;
   margin: 0 auto;
 }
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+}
